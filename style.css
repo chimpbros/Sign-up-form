@@ -1,3 +1,8 @@
+@font-face {
+    font-family: norse;
+    src: url(image/Norse-Bold.otf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -6,4 +11,39 @@
 
 main {
     display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.side-panel {
+    background: url(image/img.jpg) no-repeat center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex: 2;
+}
+
+.logo {
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    position: relative;
+    top: 200px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+}
+
+.logo .odin-icon {
+    height: 8rem;
+    width: 6rem;
+}
+
+.logo p {
+    font-family: norse, sans-serif;
+    font-size: 6rem;
+    color: aliceblue;
+}
+
+.content {
+    flex: 3;
 }
