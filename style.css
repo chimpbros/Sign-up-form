@@ -77,6 +77,10 @@ form {
     flex-wrap: wrap;
 }
 
+.form-header {
+    margin-bottom: 20px;
+}
+
 .input-ctn {
     position: relative;
     height: 45px;
@@ -124,7 +128,7 @@ form {
     border-radius: 6px;
     cursor: pointer;
     font-size: 16px;
-    margin-top: 30px;
+    margin-top: 10px;
     font-weight: bold;
 }
 
@@ -134,5 +138,22 @@ form {
 }
 
 .input:focus + label {
-    
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+    color: #596D48;
+}
+
+.input:focus{
+    border: 2px solid #596D48;
+}
+
+input:not(:placeholder-shown) + label {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
 }
