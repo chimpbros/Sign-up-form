@@ -16,40 +16,40 @@
             </div>
         </div>
         <div class="content">
-            <div class="description"><p>This is not a real online service! you know you need something like this in your life to help you realize your deepest dreams. <br>
+            <div id="description">
+                <p>This is not a real online service! you know you need something like this in your life to help you realize your deepest dreams. <br>
                 Sign up now to get started.</p>
+                <br>
                  <p>You know you want to</p>
             </div>
             <form action="get">
+                <h1>Let's do this</h1>
                 <div class="form-container">
-                    <h1>Let's do this</h1>
-                    <div class="input-field">
+                    <div class="input-ctn">
+                        <input type="text" name="first-name" id="first-name" placeholder="a" class="input" required>
                         <label for="first-name">FIRST NAME</label>
-                        <input type="text" name="first-name" id="first-name" required>
                     </div>
-                    <div class="input-field">
+                    <div class="input-ctn">
+                        <input type="text" name="last-name" id="last-name" placeholder="a" class="input">
+                        <label for="last-name">LAST NAME</label> 
+                    </div>
+                    <div class="input-ctn">
+                        <input type="email" name="mail" id="mail" placeholder="a" class="input" required>
                         <label for="last-name">LAST NAME</label>
-                        <input type="text" name="last-name" id="last-name">
                     </div>
-                    <div class="input-field">
-                        <label for="mail">E-MAIL</label>
-                        <input type="email" name="mail" id="mail" required>
-                    </div>
-                    <div class="input-field">
+                    <div class="input-ctn">
+                        <input type="number" name="phone" placeholder="a" id="phone" class="input">
                         <label for="phone">PHONE NUMBER</label>
-                        <input type="number" name="phone" id="phone">
                     </div>
-                    <div class="input-field">
+                    <div class="input-ctn">
+                        <input type="password" name="pwd" id="pwd" placeholder="a" class="input">
                         <label for="pwd">PASSWORD</label>
-                        <input type="password" name="pwd" id="pwd">
                     </div>
-                    <div class="input-field">
+                    <div class="input-ctn">
+                        <input type="password" name="pwd2" id="pwd2" placeholder="a" class="input">
                         <label for="pwd2">CONFIRM PASSWORD</label>
-                        <input type="password" name="pwd2" id="pwd2">
                     </div>
-                    <div class="submit-btn">
-                        <button type="submit">Create Account</button>
-                    </div>
+                    <button type="submit" class="submit-btn">Create Account</button>
                 </div>
             </form>
             <div class="footer">
