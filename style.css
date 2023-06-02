@@ -157,3 +157,17 @@ input:not(:placeholder-shown) + label {
     font-size: 14px;
     font-weight: 600;
 }
+
+.footer{
+    font-size: 1.2rem;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #596D48;
+    font-weight: 600;
+}
+
+.footer a:hover{
+    color: #88a66f;
+}
